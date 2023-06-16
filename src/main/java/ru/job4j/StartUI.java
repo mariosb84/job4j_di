@@ -16,16 +16,6 @@ public class StartUI {
         this.consoleInput = consoleInput;
     }*/
 
-    @Autowired
-    public void setStore(Store store) {
-        this.store = store;
-    }
-
-    @Autowired
-    public void setConsoleInput(ConsoleInput consoleInput) {
-        this.consoleInput = consoleInput;
-    }
-
     public void add(String value) {
         store.add(value);
     }
