@@ -16,5 +16,7 @@ public class SpringDI {
         store.add("Petr Arsentev");
         Store another = context.getBean(Store.class);
         another.getAll().forEach(System.out::println);
+        /*Сделаем вывод для проверки сборки docker:*/
+        System.out.println("job4j_di : Docker build is ok!");
     }
 }
